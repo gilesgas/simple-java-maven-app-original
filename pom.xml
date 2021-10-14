@@ -24,6 +24,13 @@
   <build>
     <plugins>
       <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>XXX</version>
+        <configuration>
+            <scmCommentPrefix>[ci skip]</scmCommentPrefix>
+        </configuration>
+      </plugin>
+      <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
