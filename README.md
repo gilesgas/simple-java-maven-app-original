@@ -1,3 +1,3 @@
 # simple-java-maven-app
 
-1
+1,2
